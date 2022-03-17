@@ -8,4 +8,7 @@ describe("Test if function are defined", function () {
   it("sum is afunction", function () {
     expect(sum).to.be.a("function");
   });
+  it("sum is afunction", function () {
+    expect(subtract).to.be.a("function");
+  });
 });
