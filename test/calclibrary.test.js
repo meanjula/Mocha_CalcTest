@@ -68,7 +68,7 @@ describe("Missing parameter", function () {
     });
   });
 });
-describe("Test sum 1+1=2", function () {
+describe("Test Only number allowed", function () {
   it("sum(1,'a') throws an exception 'only numbers allowed'", function () {
     expect(function () {
       sum(1, "a");
